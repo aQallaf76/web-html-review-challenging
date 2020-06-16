@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Movies</title>
+    <Div>
+        <h1 ID="head">Welcome To our Site</h1>
+    </Div>
+    <p ID="HP">Here We Gonna Share With You Some Of The Best Movies</p>
+
+</head>
+
+<body>
+    <!-- Buttons for the pages -->
+    <div> <a href=Movies.html style="vertical-align:middle">
+            <button class="button1"><span>Movies</span></button>
+        </a></div>
+
+</body>
+
+<style>
+    .button1,
+    .button2 {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .button1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button1 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .button1:hover span {
+        padding-right: 25px;
+    }
+
+    .button1:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .button2 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button2 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .button2:hover span {
+        padding-right: 25px;
+    }
+
+    .button2:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    #head {
+        text-align: center;
+        background-color: darkred;
+        color: white;
+    }
+
+    #HP {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px 5px red;
+    }
+
+    body {
+        background-image: url('img/cinema.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    .button1 {
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .button2 {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+</style>
+<footer>
+    By Abdullah ALqallaf©
+    <br>
+    <a href="sitemap.html">sitemap Page</a>
+    <a href="Resources.html">Resources Page</a>
+</footer>
+
+</html>
